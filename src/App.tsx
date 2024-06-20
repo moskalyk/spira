@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 let count = 0
@@ -138,7 +136,7 @@ function App() {
       }
 
       var anim = function(){
-        var x = 0, y = 0;
+        var x = 0;
         var maxTall = Math.random() * 100 + 200;
         var maxSize = Math.random() * 10 + 5;
         var speed = Math.random() * 2;  
